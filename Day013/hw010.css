@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3a6a6;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bike_logo{
+    width: 50px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.logo_header{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.menu_list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.menu_list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.menu_list li a:hover {
+    color: #ff9800;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.icons li a {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.icons li a:hover {
+    color: #ff9800;
+}
